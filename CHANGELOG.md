@@ -10,6 +10,25 @@
 
 - Apply the log message search to the logs volume and logs sample queries, so the volume histogram matches the filtered log list (#2092)
 
+## [4.22.0](https://github.com/grafana/clickhouse-datasource/compare/v4.21.3...v4.22.0) (2026-09-16)
+
+
+### 🎉 Features
+
+* **dashboards:** make OTel dashboards importable via datasource input ([#2081](https://github.com/grafana/clickhouse-datasource/issues/2081)) ([9a20ba8](https://github.com/grafana/clickhouse-datasource/commit/9a20ba8c588e629777d706ab2b9b3b8ed5fe278d))
+* **explore:** show log volume for SQL editor queries ([37bc128](https://github.com/grafana/clickhouse-datasource/commit/37bc128036ed5df0e6f1b1c0096d5f7ecb70a118)), closes [#2112](https://github.com/grafana/clickhouse-datasource/issues/2112)
+* **logs:** browse and filter by any log table column ([#2108](https://github.com/grafana/clickhouse-datasource/issues/2108)) ([c88708c](https://github.com/grafana/clickhouse-datasource/commit/c88708cd5f4c85ec4fe0375463f094ae6d9317c5))
+
+
+### 🐛 Bug Fixes
+
+* **autocomplete:** stop offering NULL when the typed prefix rules it out ([#2156](https://github.com/grafana/clickhouse-datasource/issues/2156)) ([061fca2](https://github.com/grafana/clickhouse-datasource/commit/061fca27f509ff5de3ba232c7b29acd668388e3d))
+
+
+### 🤖 Continuous Integration
+
+* **otel:** add scheduled canary for collector schema drift ([#2018](https://github.com/grafana/clickhouse-datasource/issues/2018)) ([bebeb48](https://github.com/grafana/clickhouse-datasource/commit/bebeb48712475fcb81a3a576e64bb1c8a4c33c39))
+
 ## [4.21.3](https://github.com/grafana/clickhouse-datasource/compare/v4.21.2...v4.21.3) (2026-09-15)
 
 
